@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>KampalaTech | IT Solutions</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                Kampala<span>Tech</span>
+            </div>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button class="menu-btn" id="menuBtn">☰</button>
+
+        </nav>
+    </header>
+
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="small-title">WELCOME TO KAMPALATECH</p>
+
+            <h1>
+                Building Digital
+                <span>Solutions</span>
+                For Modern Businesses
+            </h1>
+
+            <p class="hero-text">
+                We create reliable websites, applications and digital
+                solutions that help businesses grow and connect with
+                their customers.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#services" class="btn primary">Our Services</a>
+                <a href="#contact" class="btn secondary">Contact Us</a>
+            </div>
+
+        </div>
+
+        <div class="hero-card">
+
+            <div class="code-window">
+
+                <div class="window-top">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <pre>
+<span>&lt;developer&gt;</span>
+
+  const solution = {
+      innovation: true,
+      quality: true,
+      growth: true
+  };
+
+  buildFuture(solution);
+
+<span>&lt;/developer&gt;</span>
+                </pre>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- STATS -->
+    <section class="stats">
+
+        <div class="stat">
+            <h2>50+</h2>
+            <p>Projects Completed</p>
+        </div>
+
+        <div class="stat">
+            <h2>30+</h2>
+            <p>Happy Clients</p>
+        </div>
+
+        <div class="stat">
+            <h2>5+</h2>
+            <p>Years Experience</p>
+        </div>
+
+        <div class="stat">
+            <h2>24/7</h2>
+            <p>Technical Support</p>
+        </div>
+
+    </section>
+
+
+    <!-- SERVICES -->
+    <section class="section" id="services">
+
+        <div class="section-heading">
+
+            <p>WHAT WE DO</p>
+
+            <h2>Our Digital Services</h2>
+
+            <span>
+                Technology solutions designed to solve real business problems.
+            </span>
+
+        </div>
+
+
+        <div class="services-grid">
+
+            <div class="service-card">
+                <div class="icon">🌐</div>
+                <h3>Web Development</h3>
+                <p>
+                    Responsive and modern websites built for businesses,
+                    organizations and personal brands.
+                </p>
+                <a href="#">Learn More →</a>
+            </div>
+
+
+            <div class="service-card">
+                <div class="icon">📱</div>
+                <h3>Mobile Applications</h3>
+                <p>
+                    User-friendly mobile applications designed to improve
+                    customer engagement and business operations.
+                </p>
+                <a href="#">Learn More →</a>
+            </div>
+
+
+            <div class="service-card">
+                <div class="icon">🗄️</div>
+                <h3>Database Systems</h3>
+                <p>
+                    Secure and organized database systems for managing
+                    business information efficiently.
+                </p>
+                <a href="#">Learn More →</a>
+            </div>
+
+
+            <div class="service-card">
+                <div class="icon">🔐</div>
+                <h3>Cyber Security</h3>
+                <p>
+                    Security solutions that help protect systems,
+                    applications and sensitive business information.
+                </p>
+                <a href="#">Learn More →</a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+    <section class="about section" id="about">
+
+        <div class="about-image">
+
+            <div class="experience-box">
+                <strong>5+</strong>
+                <span>Years of<br>Innovation</span>
+            </div>
+
+        </div>
+
+
+        <div class="about-content">
+
+            <p class="section-label">ABOUT KAMPALATECH</p>
+
+            <h2>
+                Technology That
+                <span>Moves Business Forward</span>
+            </h2>
+
+            <p>
+                KampalaTech is a technology company focused on helping
+                businesses use digital solutions to improve their
+                operations and reach more customers.
+            </p>
+
+            <p>
+                From websites and mobile applications to databases and
+                cybersecurity, we combine technology with creativity to
+                build practical solutions.
+            </p>
+
+            <div class="features">
+
+                <div>
+                    ✓ Modern Technology
+                </div>
+
+                <div>
+                    ✓ Responsive Design
+                </div>
+
+                <div>
+                    ✓ Secure Solutions
+                </div>
+
+                <div>
+                    ✓ Professional Support
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROJECTS -->
+    <section class="section projects" id="projects">
+
+        <div class="section-heading">
+
+            <p>OUR WORK</p>
+
+            <h2>Featured Projects</h2>
+
+            <span>
+                Some of the digital solutions we have created.
+            </span>
+
+        </div>
+
+
+        <div class="project-grid">
+
+            <div class="project-card">
+
+                <div class="project-image ecommerce">
+                    E-COMMERCE
+                </div>
+
+                <div class="project-info">
+                    <small>WEB DEVELOPMENT</small>
+                    <h3>SmartShop Uganda</h3>
+                    <p>
+                        An online shopping platform designed for
+                        Ugandan customers.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <div class="project-image banking">
+                    FINTECH
+                </div>
+
+                <div class="project-info">
+                    <small>APPLICATION</small>
+                    <h3>FinTrack</h3>
+                    <p>
+                        A financial management system for tracking
+                        business transactions.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <div class="project-image school">
+                    EDUCATION
+                </div>
+
+                <div class="project-info">
+                    <small>DATABASE SYSTEM</small>
+                    <h3>Smart School</h3>
+                    <p>
+                        A student management system for schools and
+                        educational institutions.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CALL TO ACTION -->
+    <section class="cta">
+
+        <div>
+            <p>READY TO START?</p>
+
+            <h2>
+                Let's Build Something
+                <span>Great Together.</span>
+            </h2>
+        </div>
+
+        <a href="#contact" class="btn primary">
+            Start a Project →
+        </a>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+
+        <div class="section-heading">
+
+            <p>GET IN TOUCH</p>
+
+            <h2>Let's Talk About Your Project</h2>
+
+        </div>
+
+
+        <form id="contactForm">
+
+            <div class="input-group">
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Your Name"
+                    required
+                >
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Your Email"
+                    required
+                >
+
+            </div>
+
+
+            <input
+                type="text"
+                id="subject"
+                placeholder="Subject"
+                required
+            >
+
+
+            <textarea
+                id="message"
+                rows="6"
+                placeholder="Tell us about your project..."
+                required
+            ></textarea>
+
+
+            <button type="submit" class="btn primary">
+                Send Message →
+            </button>
+
+        </form>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="footer-logo">
+            Kampala<span>Tech</span>
+        </div>
+
+        <p>
+            Building digital solutions for a better future.
+        </p>
+
+        <div class="socials">
+            <a href="#">GitHub</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">Twitter</a>
+        </div>
+
+        <p class="copyright">
+            © 2026 KampalaTech. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
